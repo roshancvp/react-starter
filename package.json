@@ -1,0 +1,30 @@
+{
+  "name": "react-starter",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Roshan Prabhakar",
+  "repository": "https://github.com/roshancvp/react-starter",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "lint": "./node_modules/.bin/eslint src"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "path": "^0.12.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.5.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-react": "^7.3.0"
+  }
+}
